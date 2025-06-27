@@ -1,0 +1,149 @@
+<?php
+/**
+ * فئة قاعدة البيانات - محدثة ومصححة مع دعم المعاملات
+ */
+
+// إعدادات الاتصال - التحقق من عدم وجودها مسبقاً
+if (!defined('DB_HOST')) {
+    define('DB_HOST', 'localhost');
+}
+if (!defined('DB_NAME')) {
+    define('DB_NAME', 'mosque_management');
+}
+if (!defined('DB_USER')) {
+    define('DB_USER', 'root');
+}
+if (!defined('DB_PASS')) {
+    define('DB_PASS', '');
+}
+if (!defined('DB_CHARSET')) {
+    define('DB_CHARSET', 'utf8mb4');
+}
+
+class Database {
+    private $connection;
+    
+    public function __construct() {
+        try {
+            $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
+            $options = [
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                PDO::ATTR_EMULATE_PREPARES => false,
+                PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES " . DB_CHARSET
+            ];
+            
+            $this->connection = new PDO($dsn, DB_USER, DB_PASS, $options);
+        } catch (PDOException $e) {
+            die('خطأ في الاتصال بقاعدة البيانات: ' . $e->getMessage());
+        }
+    }
+    
+    public function getConnection() {
+        return $this->connection;
+    }
+    
+    // دعم المعاملات
+    public function beginTransaction() {
+        return $this->connection->beginTransaction();
+    }
+    
+    public function commit() {
+        return $this->connection->commit();
+    }
+    
+    public function rollBack() {
+        return $this->connection->rollBack();
+    }
+    
+    public function inTransaction() {
+        return $this->connection->inTransaction();
+    }
+    
+    public function query($sql, $params = []) {
+        $stmt = $this->connection->prepare($sql);
+        $stmt->execute($params);
+        return $stmt;
+    }
+    
+    public function fetch($sql, $params = []) {
+        return $this->query($sql, $params)->fetch();
+    }
+    
+    public function fetchOne($sql, $params = []) {
+        return $this->query($sql, $params)->fetch();
+    }
+    
+    public function fetchAll($sql, $params = []) {
+        return $this->query($sql, $params)->fetchAll();
+    }
+    
+    public function insert($table, $data) {
+        $columns = implode(', ', array_keys($data));
+        $placeholders = ':' . implode(', :', array_keys($data));
+        
+        $sql = "INSERT INTO {$table} ({$columns}) VALUES ({$placeholders})";
+        $stmt = $this->connection->prepare($sql);
+        
+        foreach ($data as $key => $value) {
+            $stmt->bindValue(":{$key}", $value);
+        }
+        
+        $stmt->execute();
+        return $this->connection->lastInsertId();
+    }
+    
+    public function update($table, $data, $where, $whereParams = []) {
+        // إنشاء جملة SET باستخدام placeholders مرقمة
+        $setParts = [];
+        $allParams = [];
+        
+        foreach ($data as $key => $value) {
+            $setParts[] = "{$key} = ?";
+            $allParams[] = $value;
+        }
+        
+        $setClause = implode(', ', $setParts);
+        
+        // إضافة معاملات WHERE
+        foreach ($whereParams as $param) {
+            $allParams[] = $param;
+        }
+        
+        $sql = "UPDATE {$table} SET {$setClause} WHERE {$where}";
+        $stmt = $this->connection->prepare($sql);
+        
+        return $stmt->execute($allParams);
+    }
+    
+    public function delete($table, $where, $params = []) {
+        $sql = "DELETE FROM {$table} WHERE {$where}";
+        $stmt = $this->connection->prepare($sql);
+        
+        return $stmt->execute($params);
+    }
+    
+    public function count($table, $where = '', $params = []) {
+        $sql = "SELECT COUNT(*) as count FROM {$table}";
+        if ($where) {
+            $sql .= " WHERE {$where}";
+        }
+        
+        $result = $this->query($sql, $params)->fetch();
+        return $result['count'];
+    }
+    
+    public function lastInsertId() {
+        return $this->connection->lastInsertId();
+    }
+    
+    public function prepare($sql) {
+        return $this->connection->prepare($sql);
+    }
+    
+    public function execute($sql, $params = []) {
+        $stmt = $this->connection->prepare($sql);
+        return $stmt->execute($params);
+    }
+}
+?>
