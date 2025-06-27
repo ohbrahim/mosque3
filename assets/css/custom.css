@@ -1,0 +1,312 @@
+/* الخطوط والتنسيق العام */
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* أوقات الصلاة */
+.prayer-times {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.prayer-time-item {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.prayer-time-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.prayer-time-name {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 5px;
+}
+
+.prayer-time-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* البلوكات */
+.block-container {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.block-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.block-title {
+  color: #2c3e50;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* المحتوى الرئيسي */
+.main-content {
+  background: white;
+  border-radius: 15px;
+  padding: 35px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* عناصر الأخبار */
+.news-item {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  transition: all 0.3s;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item:hover {
+  background: #f8f9fa;
+  margin: 0 -15px;
+  padding: 20px 15px;
+  border-radius: 8px;
+}
+
+.news-title {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+
+.news-title:hover {
+  color: #667eea;
+}
+
+.news-excerpt {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.news-date {
+  color: #95a5a6;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+/* الإعلانات */
+.ad-banner {
+  background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%);
+  color: #2c3e50;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(241, 196, 15, 0.3);
+  transition: all 0.3s;
+}
+
+.ad-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(241, 196, 15, 0.4);
+}
+
+/* الأزرار */
+.btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* النماذج */
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+  padding: 12px 15px;
+  transition: all 0.3s;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* البطاقات */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* التنبيهات */
+.alert {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.alert-success {
+  background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+  color: white;
+}
+
+.alert-danger {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+}
+
+/* الجداول */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.table thead th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+/* التنقل */
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 2px;
+  border: none;
+  color: #667eea;
+}
+
+.pagination .page-item.active .page-link {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+/* الشريط الجانبي */
+.sidebar-widget {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-widget h5 {
+  color: #2c3e50;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+/* الأيقونات */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto 15px;
+}
+
+/* الرسوم المتحركة */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* التجاوب */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+
+  .block-container {
+    padding: 20px;
+  }
+
+  .prayer-times {
+    padding: 15px;
+  }
+
+  .news-item:hover {
+    margin: 0;
+    padding: 20px 0;
+    background: transparent;
+  }
+}
+
+/* تحسينات إضافية */
+.text-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shadow-soft {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.border-gradient {
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box, linear-gradient(135deg, #667eea 0%, #764ba2 100%) border-box;
+}
