@@ -1,0 +1,571 @@
+[2025-06-26 16:02:01] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 16:02:01] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 16:02:01] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 1017
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 16:02:01] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 1017
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:07:14] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:07:14] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:07:14] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 1017
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:07:14] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 1017
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:08:54] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:08:54] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\index.php
+Line: 577
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:09:37] WARNING: require_once(includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:09:37] EXCEPTION: Failed opening required 'includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 C:\xampp\htdocs\mosque2\index.php(577): include()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:10:00] WARNING: require_once(includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:10:00] EXCEPTION: Failed opening required 'includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 C:\xampp\htdocs\mosque2\index.php(577): include()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:11:30] WARNING: require_once(includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:11:30] EXCEPTION: Failed opening required 'includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 2
+URL: /mosque2/
+IP: ::1
+User: Guest
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 C:\xampp\htdocs\mosque2\index.php(577): include()
+#1 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:02] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:02] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:11] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 3
+URL: /mosque2/admin/pages.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:11] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 3
+URL: /mosque2/admin/pages.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:24] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\blocks.php
+Line: 3
+URL: /mosque2/admin/blocks.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:12:24] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\blocks.php
+Line: 3
+URL: /mosque2/admin/blocks.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:51:06] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 3
+URL: /mosque2/admin/pages.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:51:06] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 3
+URL: /mosque2/admin/pages.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:52:52] WARNING: Undefined variable $pageData
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 477
+URL: /mosque2/admin/pages.php?action=add
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:52:52] WARNING: Trying to access array offset on value of type null
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 477
+URL: /mosque2/admin/pages.php?action=add
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:52:56] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\blocks.php
+Line: 3
+URL: /mosque2/admin/blocks.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:52:56] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\blocks.php
+Line: 3
+URL: /mosque2/admin/blocks.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:54:46] WARNING: require_once(../includes/functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\polls.php
+Line: 3
+URL: /mosque2/admin/polls.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:54:46] EXCEPTION: Failed opening required '../includes/functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\polls.php
+Line: 3
+URL: /mosque2/admin/polls.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:55:58] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:55:58] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:31] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:31] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:33] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:33] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:35] WARNING: require_once(../includes/all_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 17:56:35] EXCEPTION: Failed opening required '../includes/all_functions.php' (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\admin\comments.php
+Line: 3
+URL: /mosque2/admin/comments.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Stack Trace:
+#0 {main}
+--------------------------------------------------------------------------------
+[2025-06-26 18:03:42] WARNING: Undefined variable $pageData
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 477
+URL: /mosque2/admin/pages.php?action=add
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:03:42] WARNING: Trying to access array offset on value of type null
+File: C:\xampp\htdocs\mosque2\admin\pages.php
+Line: 477
+URL: /mosque2/admin/pages.php?action=add
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include_once(includes/block_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include_once(): Failed opening 'includes/block_functions.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 459
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 459
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 771
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:04:35] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 771
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:05:57] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:05:57] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:33] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:33] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include_once(includes/block_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include_once(): Failed opening 'includes/block_functions.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 459
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 459
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 771
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:07:43] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 771
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:08:39] WARNING: include_once(includes/block_functions.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:08:39] WARNING: include_once(): Failed opening 'includes/block_functions.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\archive.php
+Line: 172
+URL: /mosque2/archive.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:08:59] WARNING: include(includes/header.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\contact.php
+Line: 266
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:08:59] WARNING: include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\contact.php
+Line: 266
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:09:00] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\contact.php
+Line: 435
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:09:00] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\contact.php
+Line: 435
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:00] WARNING: Undefined variable $primaryColor
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 23
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:00] WARNING: Undefined variable $secondaryColor
+File: C:\xampp\htdocs\mosque2\includes\ui\header.php
+Line: 24
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:00] WARNING: Undefined variable $primaryColor
+File: C:\xampp\htdocs\mosque2\includes\ui\footer.php
+Line: 61
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:00] WARNING: Undefined variable $secondaryColor
+File: C:\xampp\htdocs\mosque2\includes\ui\footer.php
+Line: 62
+URL: /mosque2/contact.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:53] WARNING: include(includes/footer.php): Failed to open stream: No such file or directory
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
+[2025-06-26 18:10:53] WARNING: include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR')
+File: C:\xampp\htdocs\mosque2\my_profile.php
+Line: 197
+URL: /mosque2/my_profile.php
+IP: ::1
+User: 1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+--------------------------------------------------------------------------------
